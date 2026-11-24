@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+
+<html class="h-full bg-surface" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "error-container": "#ffdad6", "on-primary": "#ffffff", "on-surface-variant": "#414846", "surface-tint": "#3f665b", "surface-container-lowest": "#ffffff", "tertiary-fixed-dim": "#ffb4ab", "on-secondary-container": "#785a1b", "primary-fixed-dim": "#a5cfc2", "surface-container-high": "#ece8de", "surface-bright": "#fef9ef", "on-error": "#ffffff", "inverse-surface": "#32302a", "background": "#fef9ef", "on-primary-fixed-variant": "#264e44", "on-surface": "#1d1c16", "primary-fixed": "#c1ecde", "on-primary-container": "#7da599", "primary": "#00251d", "outline": "#717975", "tertiary-fixed": "#ffdad6", "outline-variant": "#c0c8c4", "tertiary": "#480003", "on-secondary": "#ffffff", "surface-dim": "#dedad0", "secondary": "#775a1a", "inverse-primary": "#a5cfc2", "on-tertiary": "#ffffff", "on-secondary-fixed-variant": "#5d4202", "on-tertiary-fixed-variant": "#93000d", "surface": "#fef9ef", "error": "#ba1a1a", "primary-container": "#123b32", "on-error-container": "#93000a", "on-primary-fixed": "#00201a", "tertiary-container": "#700007", "on-tertiary-fixed": "#410002", "on-background": "#1d1c16", "secondary-fixed": "#ffdea5", "on-secondary-fixed": "#271900", "surface-container": "#f2ede3", "secondary-container": "#fed489", "inverse-on-surface": "#f5f0e6", "on-tertiary-container": "#ff6f64", "surface-container-highest": "#e7e2d8", "surface-variant": "#e7e2d8", "surface-container-low": "#f8f3e9", "secondary-fixed-dim": "#e9c178" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-xs": "0.25rem", "margin": "3rem", "space-lg": "1.75rem", "space-xl": "3rem", "space-md": "1rem", "gutter-mobile": "0.75rem", "gutter": "1.25rem", "space-sm": "0.5rem", "margin-mobile": "1.25rem" }, "fontFamily": { "headline-md": ["Playfair Display"], "body-lg": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "headline-xl": ["Playfair Display"], "headline-sm": ["Playfair Display"], "headline-xl-mobile": ["Playfair Display"], "label-lg": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Playfair Display"], "headline-lg": ["Playfair Display"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"] }, "fontSize": { "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "500"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "700"}], "headline-xl": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "600"}], "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "500"}], "headline-xl-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}], "headline-lg-mobile": ["26px", {"lineHeight": "34px", "fontWeight": "600"}], "headline-lg": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600"}], "body-sm": ["13px", {"lineHeight": "20px", "fontWeight": "400"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600"}], "body-md": ["15px", {"lineHeight": "24px", "fontWeight": "400"}] } } } };</script><style>@keyframes heroFadeUp{0%{opacity:0;transform:translateY(14px);}100%{opacity:1;transform:translateY(0);}}@keyframes heroImageBreath{0%,100%{transform:scale(1);}50%{transform:scale(1.04);}}@keyframes goldShimmer{0%,100%{opacity:0.75;}50%{opacity:1;}}.hero-fade-up{opacity:0;animation:heroFadeUp 0.8s cubic-bezier(0.22,1,0.36,1) forwards;}.hero-delay-1{animation-delay:0.1s;}.hero-delay-2{animation-delay:0.2s;}.hero-delay-3{animation-delay:0.3s;}.hero-delay-4{animation-delay:0.4s;}.hero-image-breath{animation:heroImageBreath 14s ease-in-out infinite;}.gold-shimmer{animation:goldShimmer 3.5s ease-in-out infinite;}.scroll-reveal{opacity:0;transform:translateY(24px);transition:opacity 0.7s cubic-bezier(0.16,1,0.3,1),transform 0.7s cubic-bezier(0.16,1,0.3,1);will-change:opacity,transform;}.scroll-reveal.is-visible{opacity:1;transform:translateY(0);}@media (prefers-reduced-motion:reduce){.hero-fade-up,.hero-image-breath,.gold-shimmer{animation:none !important;opacity:1 !important;transform:none !important;}.scroll-reveal{transition:none !important;opacity:1 !important;transform:none !important;}}</style></head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen relative antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 inset-x-0 z-50 pt-safe bg-[#102D26]/95 backdrop-blur-xl border-b border-[#C6A15B]/20 shadow-[0_8px_24px_rgba(0,0,0,0.2)]"><div class="h-16 px-gutter flex items-center justify-between"><a class="flex items-center gap-2.5 active:scale-95 transition-transform" href="#"><img alt="RS Cafe &amp; Kitchen Logo" class="h-[34px] w-auto object-contain rounded-full shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWB5nKIJpCG__fXO_isAPChjf3mhQogOUMswbpPANWyPeiv1hG92xDxvkQXXzC4j0gA0iqi2ikshxwIKFqACgz_XU23sdwyIsnD5CrXPnzk9-I961MeBRxoaBEYRfgF6ax5RGbKsBkrN_uDv2aKPjSM9zqp_L14BVMm2d-_LzOtebZFXhRMWigax4HUCoOlbCf6yQKwqpRq56GvtC2otDqSbWVU9kkzzzKuPz5dEMnAOv9728SSFWQbg"/><div class="flex flex-col"><span class="font-headline-sm text-[16px] text-[#fef9ef] tracking-tight leading-none font-medium">RS Cafe &amp; Kitchen</span><span class="font-label-sm text-[9px] uppercase tracking-[0.22em] text-[#C6A15B] mt-0.5">Ajmer</span></div></a><div class="flex items-center gap-2"><button aria-label="Open Cart" class="relative w-9 h-9 flex items-center justify-center rounded-full text-[#C6A15B] hover:text-white transition-colors active:scale-95" id="header-cart-btn"><span class="material-symbols-outlined text-[21px]">shopping_bag</span><span class="absolute -top-0.5 -right-0.5 min-w-[17px] h-[17px] px-1 bg-[#ba1a1a] text-white text-[10px] font-bold rounded-full flex items-center justify-center border border-[#102D26]" id="header-cart-badge">2</span></button><button aria-label="Navigation Menu" class="w-9 h-9 flex items-center justify-center rounded-lg text-[#fef9ef] hover:text-[#C6A15B] active:scale-95 transition-transform"><span class="material-symbols-outlined text-[24px]">menu</span></button></div></div></header><main class="flex-1 flex flex-col relative w-full pb-36 bg-surface pt-16"><div class="flex flex-col w-full selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- 1. HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-[#0B2924] text-[#fef9ef] px-margin-mobile pt-8 pb-10 border-b border-[#C6A15B]/20"><div class="flex flex-col items-center text-center max-w-sm mx-auto"><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#102D26] border border-[#C6A15B]/30 mb-4 hero-fade-up hero-delay-1"><span class="w-1.5 h-1.5 rounded-full bg-[#C6A15B]"></span><span class="font-label-sm text-[10px] tracking-[0.24em] uppercase text-[#C6A15B] font-semibold">RS CAFE &amp; KITCHEN • AJMER</span><span class="w-1.5 h-1.5 rounded-full bg-[#C6A15B]"></span></div><h1 class="font-headline-xl text-[38px] leading-[1.12] tracking-tight text-[#fef9ef] font-semibold mb-2 hero-fade-up hero-delay-2">Good Food.<br/><span class="italic font-normal text-[#C6A15B]">Beautiful Moments.</span></h1><p class="font-body-md text-[14px] text-[#f8f3e9]/80 max-w-[280px] mb-6 font-light leading-relaxed hero-fade-up hero-delay-3">Discover flavours worth coming back for.</p><div class="relative w-64 h-64 mx-auto mb-7"><div class="absolute -inset-2 rounded-full border border-[#C6A15B]/30"></div><div class="w-full h-full rounded-full overflow-hidden shadow-[0_16px_40px_rgba(0,0,0,0.6)] border-2 border-[#C6A15B] relative bg-[#123b32]"><img alt="Woodfired Rustica Pizza" class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500 hero-image-breath" src="https://lh3.googleusercontent.com/aida/ALJJyrBWIYzUraBHf3YAvm02TKZG9FFTgcbwnjU4-ArcdDGAnosDNII49iXcBGKB1KXfrTbUSlTJk-au3m8jARtXNctH9_vhXNgCEmFh5gahfqZOF9b-wqjL291h7Q9f1n2ICGGiZ-tzjt-NkvGGVOdrL3h29u5vYoZSbyc4FGnpIZT5niJnhE-vMVuS3tZ6Dxk6oaRpTvwf5lUuDSrqgvHmN6EtRpuaccI_nAcBOAqn2hHTfg"/></div><div class="absolute -bottom-2 right-4 px-3 py-1 rounded-full bg-[#102D26] border border-[#C6A15B]/40 shadow-lg flex items-center gap-1.5 gold-shimmer"><span class="material-symbols-outlined text-[13px] text-[#C6A15B]">workspace_premium</span><span class="font-label-sm text-[9px] uppercase tracking-wider text-[#C6A15B] font-bold">Artisanal Craft</span></div></div><div class="flex items-center justify-center gap-5 w-full hero-fade-up hero-delay-4"><a class="h-12 px-6 flex items-center justify-center bg-[#C6A15B] text-[#00201a] font-label-lg text-label-lg font-bold rounded-xl tracking-wider shadow-md hover:bg-[#ffdea5] active:scale-95 transition-all" href="#menu-catalog">EXPLORE MENU</a><a class="inline-flex items-center gap-1 text-[#f8f3e9] hover:text-[#C6A15B] font-label-md text-[13px] tracking-wider uppercase font-semibold transition-colors group" href="#visit-contact"><span>VISIT US</span><span class="material-symbols-outlined text-[16px] text-[#C6A15B] group-hover:translate-x-1 transition-transform">arrow_forward</span></a></div></div></section>
+<!-- 2. INTERACTIVE SEARCH & DIETARY TOGGLE -->
+<section class="px-margin-mobile pt-space-lg pb-space-sm bg-surface">
+<!-- Search Bar -->
+<div class="relative w-full mb-space-md">
+<span class="material-symbols-outlined absolute left-3.5 top-1/2 -translate-y-1/2 text-outline text-[22px]">search</span>
+<input class="w-full h-12 pl-11 pr-4 bg-surface-container text-on-surface font-body-md text-body-md rounded-xl placeholder:text-outline/70 focus:outline-none focus:bg-surface-container-lowest focus:shadow-md transition-all" id="dish-search-input" placeholder="Search Paneer Tikka, Rustica Pizza, Shakes..." type="search"/>
+</div>
+<!-- Dietary Filter Chips -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1 -mx-margin-mobile px-margin-mobile select-none" id="diet-filter-group">
+<button class="filter-chip h-9 px-4 rounded-full bg-primary text-on-primary font-label-md text-label-md whitespace-nowrap shadow-sm transition-all active:scale-95 flex items-center gap-1.5" data-filter="all">
+<span>All Delights</span>
+</button>
+<button class="filter-chip h-9 px-3.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm transition-all active:scale-95 flex items-center gap-1.5" data-filter="veg">
+<span class="w-3 h-3 rounded-sm bg-surface-container-lowest flex items-center justify-center shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-[#1b873f]"></span>
+</span>
+<span>Pure Veg</span>
+</button>
+<button class="filter-chip h-9 px-3.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm transition-all active:scale-95 flex items-center gap-1.5" data-filter="non-veg">
+<span class="w-3 h-3 rounded-sm bg-surface-container-lowest flex items-center justify-center shadow-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container"></span>
+</span>
+<span>Non-Veg</span>
+</button>
+<button class="filter-chip h-9 px-3.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md whitespace-nowrap shadow-sm transition-all active:scale-95 flex items-center gap-1" data-filter="specials">
+<span class="material-symbols-outlined text-[16px] text-secondary">hotel_class</span>
+<span>Chef's Choice</span>
+</button>
+</div>
+</section>
+<!-- 3. FOOD CATEGORIES SECTION -->
+<section class="pt-space-md pb-space-lg bg-surface" id="menu-catalog">
+<div class="px-margin-mobile mb-space-sm flex items-end justify-between">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Curated Selections</span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-semibold">Explore Categories</h3>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">9 Menus</span>
+</div>
+<!-- Scrollable Categories Horizontal Track -->
+<div class="flex items-center gap-3 overflow-x-auto px-margin-mobile pb-space-sm select-none">
+<!-- 1 All -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1.5 group cursor-pointer">
+<div class="w-16 h-16 rounded-full bg-primary text-secondary-fixed flex items-center justify-center shadow-md active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[26px]">dinner_dining</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold">All Items</span>
+</div>
+<!-- 2 Pizza -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1.5 group cursor-pointer">
+<div class="w-16 h-16 rounded-full overflow-hidden shadow-md active:scale-90 transition-transform bg-surface-container-high">
+<img alt="Freshly baked artisan pizza" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd0pSm00MacGEupVbJPTPYfexK-sY065IZXqvayfU_RWhqdCj9nV2k5TNWRqvdXHXkN3JoLT7LgbN_MYz91Lb3hkJB08DBub_RiAkqKOkjuwzHgiahHs-VEUT1RQkfSw5mkZHSQnfaoqjTUCmPATQWeho9IJU6t4NldYjTCVYXLCUvU5ne-ExwB-uAtkW5ufHWipPmNja4OOQUTJrRoEDytScUZw_OpsLI01Sj6Gfc"/>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Pizza</span>
+</div>
+<!-- 3 Indian Heritage -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1.5 group cursor-pointer">
+<div class="w-16 h-16 rounded-full overflow-hidden shadow-md active:scale-90 transition-transform bg-surface-container-high">
+<img alt="Authentic Rajasthani and North Indian curries" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8gnsyu0Bq7Z13hwmpT64G38PFo49MaeydsVpnio_6_RDc2Zm_ex5Ut6G0iESZtYN4o2isbTjegix6LyP2bBTPkAt8WsUkL9ZU9y5OYTEhakxeNC2IrqBvmAymmGT6VV12FV0SexSZZgb-xxYzzHj7cEiiO1FJ1KIWntcMkQGwclVWMDfq1FZ4nOwVNqcnQWy96ZuWwtx8C8wReItSkBcVWHTQeTheJVT9Ue2vz8vk"/>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">North Indian</span>
+</div>
+<!-- 4 Burgers -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1.5 group cursor-pointer">
+<div class="w-16 h-16 rounded-full bg-surface-container-high text-primary flex items-center justify-center shadow-md active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[26px]">lunch_dining</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Burgers</span>
+</div>
+<!-- 5 Chinese & Wok -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1.5 group cursor-pointer">
+<div class="w-16 h-16 rounded-full bg-surface-container-high text-primary flex items-center justify-center shadow-md active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[26px]">ramen_dining</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Chinese</span>
+</div>
+<!-- 6 Artisanal Pasta -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1.5 group cursor-pointer">
+<div class="w-16 h-16 rounded-full bg-surface-container-high text-primary flex items-center justify-center shadow-md active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[26px]">soup_kitchen</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Pastas</span>
+</div>
+<!-- 7 Sandwiches -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1.5 group cursor-pointer">
+<div class="w-16 h-16 rounded-full bg-surface-container-high text-primary flex items-center justify-center shadow-md active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[26px]">bakery_dining</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Sandwiches</span>
+</div>
+<!-- 8 Beverages -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1.5 group cursor-pointer">
+<div class="w-16 h-16 rounded-full bg-surface-container-high text-primary flex items-center justify-center shadow-md active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[26px]">local_cafe</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Beverages</span>
+</div>
+<!-- 9 Desserts -->
+<div class="flex-shrink-0 flex flex-col items-center gap-1.5 group cursor-pointer">
+<div class="w-16 h-16 rounded-full bg-surface-container-high text-primary flex items-center justify-center shadow-md active:scale-90 transition-transform">
+<span class="material-symbols-outlined text-[26px]">icecream</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface font-medium">Desserts</span>
+</div>
+</div>
+</section>
+<!-- 4. BESTSELLERS SECTION ("Our Guest Favourites") -->
+<section class="px-margin-mobile py-space-md bg-surface-container-low">
+<div class="flex items-center justify-between mb-space-md">
+<div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Royal Signatures</span>
+</div>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-semibold">Guest Favourites</h3>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Top Rated</span>
+</div>
+<!-- Culinary Cards Stack -->
+<div class="flex flex-col gap-space-md">
+<!-- Dish Card 1: Artisanal Paneer Butter Masala -->
+<article class="scroll-reveal bg-surface-container-lowest rounded-xl shadow-md overflow-hidden flex flex-col active:shadow-lg transition-shadow" data-dish-id="dish-1" data-name="Artisanal Paneer Butter Masala" data-price="340" data-veg="true">
+<div class="relative w-full h-48 bg-surface-container">
+<img alt="Artisanal Paneer Butter Masala with rich creamy tomato gravy and naan" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8gnsyu0Bq7Z13hwmpT64G38PFo49MaeydsVpnio_6_RDc2Zm_ex5Ut6G0iESZtYN4o2isbTjegix6LyP2bBTPkAt8WsUkL9ZU9y5OYTEhakxeNC2IrqBvmAymmGT6VV12FV0SexSZZgb-xxYzzHj7cEiiO1FJ1KIWntcMkQGwclVWMDfq1FZ4nOwVNqcnQWy96ZuWwtx8C8wReItSkBcVWHTQeTheJVT9Ue2vz8vk"/>
+<div class="absolute top-3 left-3 flex items-center gap-1 px-2.5 py-1 bg-primary/90 backdrop-blur-md rounded-lg text-secondary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[14px]">star</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Bestseller</span>
+</div>
+<!-- Dietary Badge -->
+<div class="absolute top-3 right-3 w-6 h-6 bg-surface-container-lowest rounded-lg shadow-sm flex items-center justify-center">
+<div class="w-3.5 h-3.5 border-[1.5px] border-[#1b873f] rounded-[2px] flex items-center justify-center">
+<span class="w-1.5 h-1.5 rounded-full bg-[#1b873f]"></span>
+</div>
+</div>
+</div>
+<div class="p-space-md flex flex-col">
+<div class="flex items-start justify-between gap-2 mb-1">
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">Artisanal Paneer Butter Masala</h4>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold whitespace-nowrap">₹340</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-space-md">
+            Soft cottage cheese slow-simmered in velvety churned butter and San Marzano tomato reduction, fragrant kasuri methi, and rich malai.
+          </p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-md bg-surface-container text-on-surface-variant">North Indian</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-md bg-surface-container text-on-surface-variant">Chef Special</span>
+</div>
+<button class="add-to-cart-btn h-10 px-4 rounded-xl bg-tertiary-container text-on-tertiary font-label-md text-label-md shadow-sm active:scale-95 transition-all flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>ADD TO ORDER</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish Card 2: Signature Woodfired Rustica Pizza -->
+<article class="scroll-reveal bg-surface-container-lowest rounded-xl shadow-md overflow-hidden flex flex-col active:shadow-lg transition-shadow" data-dish-id="dish-2" data-name="Woodfired Rustica Supreme Pizza" data-price="380" data-veg="true">
+<div class="relative w-full h-48 bg-surface-container">
+<img alt="Handcrafted woodfired rustica pizza with fresh burrata, sun-dried tomatoes and basil" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd0pSm00MacGEupVbJPTPYfexK-sY065IZXqvayfU_RWhqdCj9nV2k5TNWRqvdXHXkN3JoLT7LgbN_MYz91Lb3hkJB08DBub_RiAkqKOkjuwzHgiahHs-VEUT1RQkfSw5mkZHSQnfaoqjTUCmPATQWeho9IJU6t4NldYjTCVYXLCUvU5ne-ExwB-uAtkW5ufHWipPmNja4OOQUTJrRoEDytScUZw_OpsLI01Sj6Gfc"/>
+<div class="absolute top-3 left-3 flex items-center gap-1 px-2.5 py-1 bg-secondary text-on-secondary backdrop-blur-md rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Chef's Pick</span>
+</div>
+<!-- Veg Badge -->
+<div class="absolute top-3 right-3 w-6 h-6 bg-surface-container-lowest rounded-lg shadow-sm flex items-center justify-center">
+<div class="w-3.5 h-3.5 border-[1.5px] border-[#1b873f] rounded-[2px] flex items-center justify-center">
+<span class="w-1.5 h-1.5 rounded-full bg-[#1b873f]"></span>
+</div>
+</div>
+</div>
+<div class="p-space-md flex flex-col">
+<div class="flex items-start justify-between gap-2 mb-1">
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">Woodfired Rustica Supreme Pizza</h4>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold whitespace-nowrap">₹380</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-space-md">
+            48-hour fermented sourdough base, San Marzano plum tomato sauce, fior di latte mozzarella, charred sun-dried tomatoes, and fresh sweet basil.
+          </p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-md bg-surface-container text-on-surface-variant">Woodfired 11"</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-md bg-surface-container text-on-surface-variant">Signature</span>
+</div>
+<button class="add-to-cart-btn h-10 px-4 rounded-xl bg-tertiary-container text-on-tertiary font-label-md text-label-md shadow-sm active:scale-95 transition-all flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>ADD TO ORDER</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish Card 3: RS Royal Tandoori Platter -->
+<article class="scroll-reveal bg-surface-container-lowest rounded-xl shadow-md overflow-hidden flex flex-col active:shadow-lg transition-shadow" data-dish-id="dish-3" data-name="RS Royal Tandoori Platter" data-price="450" data-veg="false">
+<div class="relative w-full h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Exquisite charcoal roasted Indian tandoori platter with malai chicken tikka, mutton seekh kebabs, charred onions, mint chutney, garnished on brass platter inside upscale restaurant in Ajmer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-RY9P_ATDM7fUs_AfqBCHMdpNTfJCjKr2HIEItnl3udbtD-oQgE4utv0SVH65ycRUT7ImUcNhf5awTa_1we3RzeQHObMlswklXpD3NdbiBs_CjYaEknSe_d32DfO3tHatBGpqDh-eQGKJ-mtwwygVVuEJsFd-X_mh2BcvjkjY9z6VGUDGHSHcu1BHAwLCoVSbR5-iFQWrrv7gGfMo9Lak2JJVyILixFcKCAOtak3N"/>
+<div class="absolute top-3 left-3 flex items-center gap-1 px-2.5 py-1 bg-primary/90 backdrop-blur-md rounded-lg text-secondary-fixed shadow-sm">
+<span class="material-symbols-outlined text-[14px]">outdoor_grill</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Charcoal Grills</span>
+</div>
+<!-- Non-Veg Badge -->
+<div class="absolute top-3 right-3 w-6 h-6 bg-surface-container-lowest rounded-lg shadow-sm flex items-center justify-center">
+<div class="w-3.5 h-3.5 border-[1.5px] border-tertiary-container rounded-[2px] flex items-center justify-center">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary-container"></span>
+</div>
+</div>
+</div>
+<div class="p-space-md flex flex-col">
+<div class="flex items-start justify-between gap-2 mb-1">
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">RS Royal Tandoori Platter</h4>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold whitespace-nowrap">₹450</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-space-md">
+            Melt-in-mouth chicken seekh, malai boti, and smoked mutton kebabs infused with crushed coriander seeds, royal saffron, and Ajmeri spices.
+          </p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-md bg-surface-container text-on-surface-variant">Tandoor</span>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-md bg-surface-container text-on-surface-variant">Serves 2-3</span>
+</div>
+<button class="add-to-cart-btn h-10 px-4 rounded-xl bg-tertiary-container text-on-tertiary font-label-md text-label-md shadow-sm active:scale-95 transition-all flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>ADD TO ORDER</span>
+</button>
+</div>
+</div>
+</article>
+<!-- Dish Card 4: Belgian Dark Chocolate Sizzling Brownie -->
+<article class="scroll-reveal bg-surface-container-lowest rounded-xl shadow-md overflow-hidden flex flex-col active:shadow-lg transition-shadow" data-dish-id="dish-4" data-name="Belgian Sizzling Brownie" data-price="240" data-veg="true">
+<div class="relative w-full h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Sizzling cast iron plate with warm Belgian dark chocolate walnut brownie, melting scoop of vanilla gelato, poured molten hot chocolate fudge with caramel drizzle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZZL3fLdtU9rS6sfubRG2DLEg9Uw1UUYQm_nICsvb4eYgHFHBB5-s7NMgNVNQaIbBkMmhZaxlbT_0SvoPJWSNBK0MNDrRzT7gEEGRfeB_kW8gQZVTcSNkt0VNbJTkBUVXcGolOGrDNTXty1wL_5dOAjJR6vT6afi5-TTyADEHac8-MPmHaCLYV7ryB93mdzQ0LWLi193be8U2IfAIcFa_VMH13ZOCuMhIlmvtaJMVZ"/>
+<div class="absolute top-3 left-3 flex items-center gap-1 px-2.5 py-1 bg-secondary text-on-secondary rounded-lg shadow-sm">
+<span class="material-symbols-outlined text-[14px]">cake</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Sweet Sensation</span>
+</div>
+<!-- Veg Badge -->
+<div class="absolute top-3 right-3 w-6 h-6 bg-surface-container-lowest rounded-lg shadow-sm flex items-center justify-center">
+<div class="w-3.5 h-3.5 border-[1.5px] border-[#1b873f] rounded-[2px] flex items-center justify-center">
+<span class="w-1.5 h-1.5 rounded-full bg-[#1b873f]"></span>
+</div>
+</div>
+</div>
+<div class="p-space-md flex flex-col">
+<div class="flex items-start justify-between gap-2 mb-1">
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">Belgian Sizzling Brownie</h4>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold whitespace-nowrap">₹240</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 mb-space-md">
+            Decadent 70% dark Belgian cocoa fudge brownie, served bubbling on a cast-iron skillet with artisanal Madagascar vanilla bean cream.
+          </p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-md bg-surface-container text-on-surface-variant">Gourmet Dessert</span>
+</div>
+<button class="add-to-cart-btn h-10 px-4 rounded-xl bg-tertiary-container text-on-tertiary font-label-md text-label-md shadow-sm active:scale-95 transition-all flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">add</span>
+<span>ADD TO ORDER</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- 5. SIGNATURE EXPERIENCE ("Made With Passion") -->
+<section class="px-margin-mobile py-space-lg bg-surface">
+<div class="bg-primary text-surface-bright rounded-2xl p-space-lg shadow-xl relative overflow-hidden">
+<!-- Subtle Ambient Glow -->
+<div class="absolute -right-16 -top-16 w-52 h-52 bg-secondary-fixed/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary-fixed font-bold mb-1">CRAFTED FOR ROYALS</span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-surface-bright mb-space-sm font-semibold">Made With Passion</h3>
+<p class="font-body-md text-body-md text-surface-container-high/90 mb-space-lg">
+          "Every dish tells a story of authentic flavour, meticulous freshness, and uncompromised culinary heritage."
+        </p>
+<!-- Feature Pillars -->
+<div class="grid grid-cols-1 gap-space-sm mb-space-lg">
+<div class="scroll-reveal flex items-center gap-3 p-space-sm bg-primary-container/80 rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-secondary text-on-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">eco</span>
+</div>
+<div>
+<h5 class="font-label-lg text-label-lg text-surface-bright font-semibold">100% Farm-Fresh Ingredients</h5>
+<p class="font-body-sm text-body-sm text-surface-container-high/80">Locally sourced produce and pure churned ghee</p>
+</div>
+</div>
+<div class="scroll-reveal flex items-center gap-3 p-space-sm bg-primary-container/80 rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-secondary text-on-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">oven_gen</span>
+</div>
+<div>
+<h5 class="font-label-lg text-label-lg text-surface-bright font-semibold">Authentic Stone Fire Ovens</h5>
+<p class="font-body-sm text-body-sm text-surface-container-high/80">Traditional clay tandoors &amp; Italian stone hearths</p>
+</div>
+</div>
+<div class="scroll-reveal flex items-center gap-3 p-space-sm bg-primary-container/80 rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-secondary text-on-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">workspace_premium</span>
+</div>
+<div>
+<h5 class="font-label-lg text-label-lg text-surface-bright font-semibold">Master Chefs of Rajasthan</h5>
+<p class="font-body-sm text-body-sm text-surface-container-high/80">Trained culinary artists curating bespoke recipes</p>
+</div>
+</div>
+</div>
+<div class="w-full h-44 rounded-xl overflow-hidden shadow-lg">
+<img alt="Chef presenting Rajasthani culinary feast" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8gnsyu0Bq7Z13hwmpT64G38PFo49MaeydsVpnio_6_RDc2Zm_ex5Ut6G0iESZtYN4o2isbTjegix6LyP2bBTPkAt8WsUkL9ZU9y5OYTEhakxeNC2IrqBvmAymmGT6VV12FV0SexSZZgb-xxYzzHj7cEiiO1FJ1KIWntcMkQGwclVWMDfq1FZ4nOwVNqcnQWy96ZuWwtx8C8wReItSkBcVWHTQeTheJVT9Ue2vz8vk"/>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. TODAY'S SPECIAL SECTION -->
+<section class="px-margin-mobile py-space-lg bg-primary text-surface-bright relative">
+<div class="scroll-reveal flex flex-col">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-secondary-fixed font-bold">TODAY'S SPECIAL RECOMMENDATION</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-container text-on-tertiary font-label-sm text-label-sm uppercase">Limited Edition</span>
+</div>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-surface-bright font-semibold mb-space-sm">
+        Truffle Ricotta &amp; Burrata Gourmet Pizza
+      </h3>
+<div class="relative w-full h-56 rounded-2xl overflow-hidden mb-space-md shadow-2xl">
+<img alt="Gourmet artisan pizza with creamy burrata, aromatic black truffle oil, and fresh herbs" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd0pSm00MacGEupVbJPTPYfexK-sY065IZXqvayfU_RWhqdCj9nV2k5TNWRqvdXHXkN3JoLT7LgbN_MYz91Lb3hkJB08DBub_RiAkqKOkjuwzHgiahHs-VEUT1RQkfSw5mkZHSQnfaoqjTUCmPATQWeho9IJU6t4NldYjTCVYXLCUvU5ne-ExwB-uAtkW5ufHWipPmNja4OOQUTJrRoEDytScUZw_OpsLI01Sj6Gfc"/>
+<div class="absolute bottom-3 left-3 bg-primary/90 backdrop-blur-md px-3 py-1.5 rounded-xl shadow-md">
+<span class="font-body-sm text-body-sm text-secondary-fixed-dim line-through mr-1.5">₹490</span>
+<span class="font-headline-sm text-headline-sm text-secondary-fixed font-bold">₹420</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-surface-container-high/90 mb-space-md">
+        Handcrafted artisan slow-fermented crust topped with sun-blushed cherry tomatoes, dollops of whipped ricotta, fresh Italian burrata, and finished with fragrant black truffle essence.
+      </p>
+<div class="flex items-center gap-space-sm">
+<button class="add-special-to-cart-btn flex-1 h-12 bg-secondary text-on-secondary rounded-xl font-label-lg text-label-lg font-semibold shadow-md active:scale-95 transition-all flex items-center justify-center gap-2" data-name="Truffle Ricotta &amp; Burrata Gourmet Pizza" data-price="420" data-veg="true">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span>ORDER TODAY'S SPECIAL</span>
+</button>
+</div>
+</div>
+</section>
+<!-- 7. RESTAURANT EXPERIENCE ("More Than Just Food") -->
+<section class="px-margin-mobile py-space-xl bg-surface">
+<div class="mb-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">ATMOSPHERE &amp; HOSPITALITY</span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-semibold">More Than Just Food</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+        Warm ambiance &amp; family-friendly luxury dining in the heart of Panchsheel Nagar, Ajmer.
+      </p>
+</div>
+<!-- Interior Hero Showcase -->
+<div class="w-full h-56 rounded-2xl overflow-hidden shadow-lg mb-space-md bg-surface-container">
+<img alt="Warm restaurant interior with emerald green velvet booths, brass chandeliers and arches" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvQ9Q03DknnNV3KACT4YK_npQwQ3HljB2XfEh8ew1J1LhIvq5fqQO7lNLSn9ipvTwH4MwOr1vDMG-KCNUsAAuoqFUOekbRoZTdfck9c5jbExJbFer256ryGAd1V1UDVLmI-QZODFKm3nNVxxRSKESpGPe_UG-V1Dru0YDx2-blZJloGs7eqSuFfTgnpfOUjxAa70HtyWvWF9nzE_Wt8gWh3uiwKK-L5AlbsvbatUpA"/>
+</div>
+<!-- Ambient Highlights Carousel/Cards -->
+<div class="grid grid-cols-1 gap-space-sm">
+<div class="scroll-reveal p-space-md bg-surface-container-low rounded-xl shadow-sm flex items-start gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary text-secondary-fixed flex items-center justify-center flex-shrink-0 shadow-xs">
+<span class="material-symbols-outlined text-[22px]">weekend</span>
+</div>
+<div>
+<h5 class="font-headline-sm text-[17px] text-primary font-semibold">Royal Velvet Booths &amp; Warm Arches</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Designed with imperial green velvet banquettes and hand-carved heritage arches for plush seating.</p>
+</div>
+</div>
+<div class="scroll-reveal p-space-md bg-surface-container-low rounded-xl shadow-sm flex items-start gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary text-secondary-fixed flex items-center justify-center flex-shrink-0 shadow-xs">
+<span class="material-symbols-outlined text-[22px]">groups</span>
+</div>
+<div>
+<h5 class="font-headline-sm text-[17px] text-primary font-semibold">Family Dining &amp; Birthday Celebrations</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Spacious private family bays and dedicated gathering areas for celebrations and birthdays.</p>
+</div>
+</div>
+<div class="scroll-reveal p-space-md bg-surface-container-low rounded-xl shadow-sm flex items-start gap-3">
+<div class="w-10 h-10 rounded-xl bg-primary text-secondary-fixed flex items-center justify-center flex-shrink-0 shadow-xs">
+<span class="material-symbols-outlined text-[22px]">local_bar</span>
+</div>
+<div>
+<h5 class="font-headline-sm text-[17px] text-primary font-semibold">Live Artisanal Mocktail &amp; Coffee Bar</h5>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Freshly brewed single-origin roasts, cold brews, and handcrafted fruit-infused botanical coolers.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. CUSTOMER REVIEWS ("What Our Guests Say") -->
+<section class="px-margin-mobile py-space-lg bg-surface-container">
+<div class="mb-space-md text-center">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">VERIFIED REVIEWS</span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-semibold">What Our Guests Say</h3>
+<!-- Google Rating Stat Badge -->
+<div class="inline-flex items-center gap-2 mt-space-sm px-4 py-1.5 rounded-full bg-surface-container-lowest shadow-sm">
+<div class="flex items-center text-secondary">
+<span class="material-symbols-outlined text-[18px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[18px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[18px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[18px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[18px]" style='font-variation-settings: "FILL" 1;'>star_half</span>
+</div>
+<span class="font-label-lg text-label-lg font-bold text-on-surface">4.5 Stars</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(1,240+ Google Reviews)</span>
+</div>
+</div>
+<!-- Review Cards Stack -->
+<div class="flex flex-col gap-space-sm mb-space-md">
+<!-- Review 1 -->
+<div class="scroll-reveal p-space-md bg-surface-container-lowest rounded-xl shadow-md flex flex-col">
+<div class="flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-2.5">
+<div class="w-10 h-10 rounded-full bg-primary-container text-secondary-fixed font-bold flex items-center justify-center font-headline-sm text-[16px]">
+              AS
+            </div>
+<div>
+<h5 class="font-label-lg text-label-lg text-primary font-semibold">Dr. Ananya Sharma</h5>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Local Guide • Ajmer</span>
+</div>
+</div>
+<div class="flex text-secondary text-[14px]">
+<span class="material-symbols-outlined text-[16px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[16px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[16px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[16px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[16px]" style='font-variation-settings: "FILL" 1;'>star</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+          "The finest luxury dining experience in Panchsheel Nagar! Incredible royal decor, very attentive staff, and the artisanal paneer butter masala is out of this world. Highly recommended for families."
+        </p>
+</div>
+<!-- Review 2 -->
+<div class="scroll-reveal p-space-md bg-surface-container-lowest rounded-xl shadow-md flex flex-col">
+<div class="flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-2.5">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container font-bold flex items-center justify-center font-headline-sm text-[16px]">
+              RS
+            </div>
+<div>
+<h5 class="font-label-lg text-label-lg text-primary font-semibold">Rahul Singhal</h5>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Verified Diner</span>
+</div>
+</div>
+<div class="flex text-secondary text-[14px]">
+<span class="material-symbols-outlined text-[16px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[16px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[16px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[16px]" style='font-variation-settings: "FILL" 1;'>star</span>
+<span class="material-symbols-outlined text-[16px]" style='font-variation-settings: "FILL" 1;'>star</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant italic">
+          "The woodfired sourdough pizza and iced hazelnut latte were phenomenal. Elegant ambient lighting and high-end feel without overinflated prices. Will definitely return!"
+        </p>
+</div>
+</div>
+<!-- Review Action Button -->
+<a class="w-full h-12 bg-surface-container-lowest text-primary font-label-lg text-label-lg rounded-xl shadow-sm flex items-center justify-center gap-2 active:scale-95 transition-all text-center" href="https://maps.google.com" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[20px] text-secondary">rate_review</span>
+<span>WRITE A GOOGLE REVIEW</span>
+</a>
+</section>
+<!-- 9. INSTAGRAM SECTION ("Follow Our Flavours") -->
+<section class="px-margin-mobile py-space-lg bg-surface">
+<div class="flex items-center justify-between mb-space-sm">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">INSTAGRAM FEED</span>
+<h3 class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-semibold">@rscafekitchen</h3>
+</div>
+<a class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider flex items-center gap-0.5" href="https://instagram.com" rel="noopener" target="_blank">
+<span>Follow</span>
+<span class="material-symbols-outlined text-[16px]">arrow_outward</span>
+</a>
+</div>
+<!-- 3-Column Photo Mosaic -->
+<div class="grid grid-cols-3 gap-2 mb-space-md">
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img alt="Fresh pizza presentation on Instagram" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd0pSm00MacGEupVbJPTPYfexK-sY065IZXqvayfU_RWhqdCj9nV2k5TNWRqvdXHXkN3JoLT7LgbN_MYz91Lb3hkJB08DBub_RiAkqKOkjuwzHgiahHs-VEUT1RQkfSw5mkZHSQnfaoqjTUCmPATQWeho9IJU6t4NldYjTCVYXLCUvU5ne-ExwB-uAtkW5ufHWipPmNja4OOQUTJrRoEDytScUZw_OpsLI01Sj6Gfc"/>
+</div>
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img alt="Indian heritage royal feast platter" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8gnsyu0Bq7Z13hwmpT64G38PFo49MaeydsVpnio_6_RDc2Zm_ex5Ut6G0iESZtYN4o2isbTjegix6LyP2bBTPkAt8WsUkL9ZU9y5OYTEhakxeNC2IrqBvmAymmGT6VV12FV0SexSZZgb-xxYzzHj7cEiiO1FJ1KIWntcMkQGwclVWMDfq1FZ4nOwVNqcnQWy96ZuWwtx8C8wReItSkBcVWHTQeTheJVT9Ue2vz8vk"/>
+</div>
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img alt="Evening cafe atmosphere candlelit dinner" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvQ9Q03DknnNV3KACT4YK_npQwQ3HljB2XfEh8ew1J1LhIvq5fqQO7lNLSn9ipvTwH4MwOr1vDMG-KCNUsAAuoqFUOekbRoZTdfck9c5jbExJbFer256ryGAd1V1UDVLmI-QZODFKm3nNVxxRSKESpGPe_UG-V1Dru0YDx2-blZJloGs7eqSuFfTgnpfOUjxAa70HtyWvWF9nzE_Wt8gWh3uiwKK-L5AlbsvbatUpA"/>
+</div>
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Barista pouring latte art into cup at RS Cafe and Kitchen Ajmer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcHFpV7yUAjnKwYSgYVpxaYIQHXg9yzrcnSH3o8GGCOxM6sl5fAR0Ms5hMhHCWxnFT7272zCcG6jlVKi56N3xN2vblQEexpniwqdMLfmrjQwyzLcgemGpHvnKGmVLxnIjUrcWy-dHEPp-RQY7fyfq3F5nJgNaG7IdamyPAYC1e-d_Zr1LiGhkBBDZP0RXyhW2iV1zAlCoZjX092YvtSuUFtqB_xX9ddNI9qLLtfXvo"/>
+</div>
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Chilled passionfruit virgin mojito with fresh mint in crystal glass" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuAqsz3RR5u3r62C8ZmT__D349OkyPK18hdA4yom-iDT0V83e2xfdXaod2Jqr7JUtyyoU1ewckCgYfzXVgHZtUx3d3zvlCu6SKsh9cfwwtqdhguNBOOZa2Yb21eVndnBuUxHCkz0qp7KTCf2HGr6jM52QAYrHQ3PclZVM-IuavtPV37WAfOpTlibvlbstz8U5OSD6FvEFI8RKjTgW5O1XmtVN0mUD1IUJZ3oUeyiS4"/>
+</div>
+<div class="aspect-square rounded-xl overflow-hidden bg-surface-container shadow-sm group">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Guests dining happily in royal green arched booth at RS Cafe Ajmer" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcvUcRaLSUN2G0ijQtAKtcVki_dicyTVlKO7cuaIRsR_vLAySKZ0bTJQJtDFXyoB9qpnMsEBrM6ucrheqDaHcHi6S_pRRIIxoTXJN5OmblqoM3J6N5RiO44KqUmsPEWJqhfSiZf4ZDTOK8xcmQNmsJHaBcukIwY0xkjVfAT3Mr1j5MjHMgDNi8_J3ZXH6VQbMia8-p46ZQSfRX_MGFCq-dKHbsGmTpnNHlb76ig6dL"/>
+</div>
+</div>
+<a class="w-full h-11 bg-surface-container-high text-primary font-label-md text-label-md rounded-xl flex items-center justify-center gap-2 active:scale-95 transition-all text-center" href="https://instagram.com" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+<span>FOLLOW OUR FLAVOURS ON INSTAGRAM</span>
+</a>
+</section>
+<!-- 10. COMPREHENSIVE AJMER FOOTER & VISIT INFO -->
+<footer class="bg-primary text-surface-bright pt-space-lg pb-space-xl px-margin-mobile" id="visit-contact">
+<!-- Brand Identity Block -->
+<div class="flex flex-col items-center text-center pb-space-lg border-b border-primary-container">
+<div class="w-14 h-14 rounded-2xl bg-secondary-fixed/15 flex items-center justify-center text-secondary-fixed mb-space-xs shadow-md">
+<span class="material-symbols-outlined text-[32px]">restaurant</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-surface-bright font-semibold">RS Cafe &amp; Kitchen</h3>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-secondary-fixed-dim mt-0.5">Panchsheel Nagar • Ajmer</span>
+<p class="font-body-sm text-body-sm text-surface-container-high/80 max-w-xs mt-space-xs">
+        Crafting contemporary culinary elegance rooted in royal hospitality. Join us for lunch, dinner, or artisanal coffee.
+      </p>
+</div>
+<!-- Essential Visit Details -->
+<div class="py-space-md flex flex-col gap-space-sm border-b border-primary-container">
+<!-- Address -->
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px] mt-0.5">location_on</span>
+<div>
+<h6 class="font-label-lg text-label-lg text-surface-bright font-semibold">Our Location</h6>
+<p class="font-body-sm text-body-sm text-surface-container-high/80 mt-0.5">
+            Makarwali Road, Near CSM Mall / Opp. JDP Tower, Panchsheel Nagar, Ajmer, Rajasthan 305004
+          </p>
+</div>
+</div>
+<!-- Hours -->
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px] mt-0.5">schedule</span>
+<div>
+<h6 class="font-label-lg text-label-lg text-surface-bright font-semibold">Operating Hours</h6>
+<p class="font-body-sm text-body-sm text-surface-container-high/80 mt-0.5">
+            Monday – Sunday: <span class="text-surface-bright font-medium">11:00 AM – 11:00 PM</span>
+</p>
+</div>
+</div>
+<!-- Contact -->
+<div class="flex items-start gap-3">
+<span class="material-symbols-outlined text-secondary-fixed text-[22px] mt-0.5">call</span>
+<div>
+<h6 class="font-label-lg text-label-lg text-surface-bright font-semibold">Reservations &amp; Takeaway</h6>
+<a class="font-body-sm text-body-sm text-secondary-fixed underline block mt-0.5" href="tel:+919799930152">
+            +91 97999 30152
+          </a>
+</div>
+</div>
+</div>
+<!-- Quick Action Contact Grid -->
+<div class="grid grid-cols-2 gap-space-sm py-space-md">
+<a class="h-12 bg-primary-container text-surface-bright rounded-xl font-label-md text-label-md flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-sm" href="tel:+919799930152">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">phone</span>
+<span>Call Now</span>
+</a>
+<a class="h-12 bg-[#25D366] text-white rounded-xl font-label-md text-label-md flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-sm" href="https://wa.me/919799930152" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>WhatsApp</span>
+</a>
+<a class="h-12 bg-primary-container text-surface-bright rounded-xl font-label-md text-label-md flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-sm" href="https://maps.google.com" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">map</span>
+<span>Get Directions</span>
+</a>
+<a class="h-12 bg-primary-container text-surface-bright rounded-xl font-label-md text-label-md flex items-center justify-center gap-1.5 active:scale-95 transition-all shadow-sm" href="https://instagram.com" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">camera_alt</span>
+<span>Instagram</span>
+</a>
+</div>
+<!-- Copyright -->
+<div class="text-center pt-space-sm">
+<p class="font-label-sm text-label-sm text-surface-container-high/60">
+        © 2025 RS Cafe &amp; Kitchen. All rights reserved.
+      </p>
+<p class="font-label-sm text-[10px] text-secondary-fixed-dim/70 mt-1 uppercase tracking-widest">
+        Made with Royal Pride in Ajmer, Rajasthan
+      </p>
+</div>
+</footer>
+<!-- Micro-Feedback Order Toast (Hidden by default, triggered on add to cart) -->
+<div class="fixed top-28 inset-x-margin-mobile z-50 transform -translate-y-24 opacity-0 pointer-events-none transition-all duration-300 ease-out" id="cart-toast">
+<div class="bg-primary text-surface-bright p-space-sm rounded-xl shadow-2xl flex items-center justify-between border border-secondary/30 backdrop-blur-xl">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-lg bg-secondary text-on-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">check</span>
+</div>
+<div>
+<h6 class="font-label-md text-label-md text-surface-bright font-semibold">Added to Order</h6>
+<span class="font-body-sm text-[11px] text-secondary-fixed-dim" id="toast-dish-name">Review your tray in Menu</span>
+</div>
+</div>
+<button class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider px-2.5 py-1 rounded bg-primary-container hover:bg-primary-container/80 transition-colors" id="toast-view-btn">View Cart</button>
+</div>
+</div>
+<!-- STICKY FLOATING CART BAR -->
+<div class="fixed bottom-20 inset-x-margin-mobile z-40 transition-all duration-300 transform translate-y-0 opacity-100" id="sticky-cart-bar">
+<div class="bg-primary text-surface-bright rounded-2xl shadow-[0_16px_36px_rgba(0,37,29,0.32)] border border-secondary/30 p-2.5 px-3 flex items-center justify-between backdrop-blur-xl">
+<div class="flex items-center gap-2.5 cursor-pointer" id="cart-bar-info">
+<div class="relative w-10 h-10 rounded-xl bg-secondary-fixed/20 text-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span class="absolute -top-1 -right-1 min-w-[18px] h-[18px] px-1 bg-tertiary-container text-on-tertiary text-[10px] font-bold rounded-full flex items-center justify-center border border-primary" id="floating-cart-badge">2</span>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<span class="font-label-sm text-label-sm text-secondary-fixed font-bold tracking-wider uppercase">Order Cart</span>
+<span class="text-secondary-fixed-dim/60">•</span>
+<span class="font-body-sm text-body-sm text-surface-bright font-medium" id="cart-bar-item-count">2 Items</span>
+</div>
+<div class="font-headline-sm text-[16px] text-secondary-fixed font-bold leading-tight" id="cart-bar-total">₹756</div>
+</div>
+</div>
+<button class="h-10 px-4 bg-secondary text-on-secondary rounded-xl font-label-md text-label-md font-semibold shadow-md active:scale-95 transition-all flex items-center gap-1.5" id="open-cart-drawer-btn">
+<span>VIEW ORDER</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- SLIDE-UP CART & CHECKOUT DRAWER -->
+<div class="fixed inset-0 z-50 pointer-events-none transition-all duration-300" id="cart-drawer-container">
+<!-- Backdrop -->
+<div class="absolute inset-0 bg-[#001712]/70 backdrop-blur-sm opacity-0 transition-opacity duration-300" id="cart-drawer-backdrop"></div>
+<!-- Drawer Body -->
+<div class="absolute inset-x-0 bottom-0 max-h-[92vh] flex flex-col bg-surface rounded-t-[28px] shadow-[0_-16px_40px_rgba(0,0,0,0.35)] transform translate-y-full transition-transform duration-300 ease-out border-t border-secondary/20 overflow-hidden" id="cart-drawer-panel">
+<!-- Drag Handle Bar -->
+<div class="w-full pt-3 pb-1 flex flex-col items-center justify-center flex-shrink-0 cursor-grab active:cursor-grabbing">
+<div class="w-12 h-1.5 rounded-full bg-outline-variant/60"></div>
+</div>
+<!-- Drawer Header -->
+<div class="px-margin-mobile pt-1 pb-3 flex items-center justify-between border-b border-surface-container flex-shrink-0">
+<div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">room_service</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Your Table Order</h3>
+</div>
+<p class="font-body-sm text-[12px] text-on-surface-variant">RS Cafe &amp; Kitchen • Panchsheel Nagar</p>
+</div>
+<button class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high active:scale-95 transition-all" id="close-cart-drawer-btn">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- Dining Mode Selector -->
+<div class="px-margin-mobile py-2.5 bg-surface-container-low flex items-center justify-between gap-1.5 flex-shrink-0 border-b border-surface-container">
+<button class="order-type-btn flex-1 py-1.5 px-2 rounded-lg bg-primary text-secondary-fixed text-center font-label-sm text-label-sm font-semibold transition-all shadow-xs" data-type="dine-in">
+        Dine-in (Table)
+      </button>
+<button class="order-type-btn flex-1 py-1.5 px-2 rounded-lg bg-surface-container-highest text-on-surface text-center font-label-sm text-label-sm font-medium transition-all" data-type="takeaway">
+        Takeaway
+      </button>
+<button class="order-type-btn flex-1 py-1.5 px-2 rounded-lg bg-surface-container-highest text-on-surface text-center font-label-sm text-label-sm font-medium transition-all" data-type="delivery">
+        Local Delivery
+      </button>
+</div>
+<!-- Scrollable Content Area -->
+<div class="flex-1 overflow-y-auto px-margin-mobile py-space-sm space-y-4">
+<!-- Order Items List -->
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold">Selected Items</span>
+<button class="text-[12px] text-error font-medium hover:underline" id="clear-cart-btn">Clear all</button>
+</div>
+<div class="divide-y divide-surface-container bg-surface-container-lowest rounded-xl shadow-xs border border-outline-variant/30 overflow-hidden" id="cart-items-list">
+<div class="p-3 flex items-center justify-between gap-2.5">
+<div class="flex items-center gap-2 min-w-0">
+<span class="w-3.5 h-3.5 border-[1.5px] border-[#1b873f] rounded-[2px] flex items-center justify-center flex-shrink-0">
+<span class="w-1.5 h-1.5 rounded-full bg-[#1b873f]"></span>
+</span>
+<div class="min-w-0">
+<h5 class="font-label-md text-label-md text-primary font-semibold truncate leading-tight">Artisanal Paneer Butter Masala</h5>
+<span class="font-label-sm text-[12px] text-secondary font-bold">₹340</span>
+</div>
+</div>
+<!-- Stepper Controls -->
+<div class="flex items-center bg-surface-container rounded-lg p-0.5 border border-outline-variant/30 flex-shrink-0">
+<button class="cart-decrement-btn w-7 h-7 flex items-center justify-center rounded text-primary hover:bg-surface-container-high active:scale-90 transition-all" data-id="dish-1">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="w-6 text-center font-label-md text-[13px] font-bold text-on-surface">1</span>
+<button class="cart-increment-btn w-7 h-7 flex items-center justify-center rounded text-primary hover:bg-surface-container-high active:scale-90 transition-all" data-id="dish-1">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+<div class="p-3 flex items-center justify-between gap-2.5">
+<div class="flex items-center gap-2 min-w-0">
+<span class="w-3.5 h-3.5 border-[1.5px] border-[#1b873f] rounded-[2px] flex items-center justify-center flex-shrink-0">
+<span class="w-1.5 h-1.5 rounded-full bg-[#1b873f]"></span>
+</span>
+<div class="min-w-0">
+<h5 class="font-label-md text-label-md text-primary font-semibold truncate leading-tight">Woodfired Rustica Supreme Pizza</h5>
+<span class="font-label-sm text-[12px] text-secondary font-bold">₹380</span>
+</div>
+</div>
+<!-- Stepper Controls -->
+<div class="flex items-center bg-surface-container rounded-lg p-0.5 border border-outline-variant/30 flex-shrink-0">
+<button class="cart-decrement-btn w-7 h-7 flex items-center justify-center rounded text-primary hover:bg-surface-container-high active:scale-90 transition-all" data-id="dish-2">
+<span class="material-symbols-outlined text-[16px]">remove</span>
+</button>
+<span class="w-6 text-center font-label-md text-[13px] font-bold text-on-surface">1</span>
+<button class="cart-increment-btn w-7 h-7 flex items-center justify-center rounded text-primary hover:bg-surface-container-high active:scale-90 transition-all" data-id="dish-2">
+<span class="material-symbols-outlined text-[16px]">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Cooking Instructions -->
+<div class="bg-surface-container-lowest p-3 rounded-xl border border-outline-variant/30">
+<div class="flex items-center gap-1.5 mb-1.5 text-primary">
+<span class="material-symbols-outlined text-[18px] text-secondary">edit_note</span>
+<span class="font-label-sm text-label-sm font-semibold uppercase tracking-wider">Cooking Instructions</span>
+</div>
+<input class="w-full text-[13px] bg-surface-container-low px-3 py-2 rounded-lg text-on-surface placeholder:text-outline/70 focus:outline-none focus:bg-surface-container transition-colors" id="cooking-notes-input" placeholder="E.g., Less spicy, extra crisp pizza base, serve drinks first..." type="text"/>
+</div>
+<!-- Offer / Promo Coupon -->
+<div class="bg-primary/5 p-3 rounded-xl border border-secondary/30 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">redeem</span>
+<div>
+<div class="font-label-sm text-label-sm font-bold text-primary">RAJASTHAN10 Applied</div>
+<div class="text-[11px] text-on-surface-variant">Complimentary Rajasthani Gulab Jamun included!</div>
+</div>
+</div>
+<span class="text-[11px] font-bold text-secondary uppercase bg-secondary-container/60 px-2 py-0.5 rounded">Unlocked</span>
+</div>
+<!-- Guest Details Form -->
+<div class="bg-surface-container-lowest p-3.5 rounded-xl border border-outline-variant/30 space-y-2.5">
+<div class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">person</span>
+<span>Diner &amp; Table Details</span>
+</div>
+<div class="grid grid-cols-2 gap-2">
+<div>
+<label class="block text-[11px] text-on-surface-variant font-medium mb-1">Table No.</label>
+<input class="w-full text-[13px] bg-surface-container-low px-3 py-2 rounded-lg text-on-surface focus:outline-none focus:bg-surface-container" id="table-number-input" type="text" value="Table 04"/>
+</div>
+<div>
+<label class="block text-[11px] text-on-surface-variant font-medium mb-1">Guest Name</label>
+<input class="w-full text-[13px] bg-surface-container-low px-3 py-2 rounded-lg text-on-surface focus:outline-none focus:bg-surface-container" id="guest-name-input" type="text" value="Royal Guest"/>
+</div>
+</div>
+<div>
+<label class="block text-[11px] text-on-surface-variant font-medium mb-1">Phone Number (Optional for WhatsApp Bill)</label>
+<input class="w-full text-[13px] bg-surface-container-low px-3 py-2 rounded-lg text-on-surface focus:outline-none focus:bg-surface-container" id="guest-phone-input" placeholder="+91 98765 43210" type="tel"/>
+</div>
+</div>
+<!-- Bill Breakdown -->
+<div class="bg-surface-container-lowest p-3.5 rounded-xl border border-outline-variant/30 space-y-2">
+<div class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Bill Summary</div>
+<div class="flex items-center justify-between text-[13px] text-on-surface-variant">
+<span>Items Subtotal</span>
+<span class="font-medium text-on-surface" id="bill-subtotal">₹720</span>
+</div>
+<div class="flex items-center justify-between text-[13px] text-on-surface-variant">
+<span class="flex items-center gap-1">
+<span>Restaurant Taxes &amp; GST (5%)</span>
+<span class="material-symbols-outlined text-[14px] text-outline">info</span>
+</span>
+<span class="font-medium text-on-surface" id="bill-tax">₹36</span>
+</div>
+<div class="flex items-center justify-between text-[13px] text-emerald-700">
+<span>Complimentary Dessert</span>
+<span class="font-medium">Free</span>
+</div>
+<div class="pt-2 border-t border-surface-container flex items-center justify-between">
+<div>
+<span class="font-label-lg text-label-lg font-bold text-primary block leading-none">Grand Total</span>
+<span class="text-[10px] text-on-surface-variant">Inclusive of all local duties</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-secondary font-bold" id="bill-grand-total">₹756</span>
+</div>
+</div>
+</div>
+<!-- Drawer Fixed Footer / Action Buttons -->
+<div class="px-margin-mobile pt-2.5 pb-safe bg-surface border-t border-surface-container flex-shrink-0 space-y-2">
+<button class="w-full h-12 rounded-xl bg-[#25D366] text-white font-label-lg text-label-lg font-semibold flex items-center justify-center gap-2 shadow-md active:scale-95 transition-all" id="whatsapp-order-btn">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>Confirm Order via WhatsApp</span>
+</button>
+<button class="w-full h-11 rounded-xl bg-tertiary-container text-on-tertiary font-label-md text-label-md font-semibold flex items-center justify-center gap-1.5 active:scale-95 transition-all" id="direct-order-btn">
+<span class="material-symbols-outlined text-[18px]">receipt_long</span>
+<span>Send to Kitchen • Pay at Counter / UPI</span>
+</button>
+<div class="text-center pb-1">
+<span class="text-[11px] text-on-surface-variant flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[13px] text-secondary">verified_user</span>
+<span>Fresh preparation starts right after confirmation</span>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script>
+  // Initial Cart State
+  const initialCart = [
+    { id: 'dish-1', name: 'Artisanal Paneer Butter Masala', price: 340, qty: 1, veg: true },
+    { id: 'dish-2', name: 'Woodfired Rustica Supreme Pizza', price: 380, qty: 1, veg: true }
+  ];
+
+  let cart = [...initialCart];
+
+  // DOM Elements
+  const cartDrawerContainer = document.getElementById('cart-drawer-container');
+  const cartDrawerBackdrop = document.getElementById('cart-drawer-backdrop');
+  const cartDrawerPanel = document.getElementById('cart-drawer-panel');
+  const openDrawerBtn = document.getElementById('open-cart-drawer-btn');
+  const closeDrawerBtn = document.getElementById('close-cart-drawer-btn');
+  const headerCartBtn = document.getElementById('header-cart-btn');
+  const headerCartBadge = document.getElementById('header-cart-badge');
+  const stickyCartBar = document.getElementById('sticky-cart-bar');
+  const cartBarInfo = document.getElementById('cart-bar-info');
+  const floatingCartBadge = document.getElementById('floating-cart-badge');
+  const cartBarItemCount = document.getElementById('cart-bar-item-count');
+  const cartBarTotal = document.getElementById('cart-bar-total');
+  const cartItemsList = document.getElementById('cart-items-list');
+  const billSubtotal = document.getElementById('bill-subtotal');
+  const billTax = document.getElementById('bill-tax');
+  const billGrandTotal = document.getElementById('bill-grand-total');
+  const clearCartBtn = document.getElementById('clear-cart-btn');
+  const cartToast = document.getElementById('cart-toast');
+  const toastDishName = document.getElementById('toast-dish-name');
+  const toastViewBtn = document.getElementById('toast-view-btn');
+  const navCartTab = document.getElementById('nav-cart-tab');
+  const whatsappOrderBtn = document.getElementById('whatsapp-order-btn');
+  const directOrderBtn = document.getElementById('direct-order-btn');
+
+  function openCartDrawer() {
+    cartDrawerContainer.classList.remove('pointer-events-none');
+    cartDrawerBackdrop.classList.remove('opacity-0');
+    cartDrawerBackdrop.classList.add('opacity-100');
+    cartDrawerPanel.classList.remove('translate-y-full');
+    cartDrawerPanel.classList.add('translate-y-0');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeCartDrawer() {
+    cartDrawerBackdrop.classList.remove('opacity-100');
+    cartDrawerBackdrop.classList.add('opacity-0');
+    cartDrawerPanel.classList.remove('translate-y-0');
+    cartDrawerPanel.classList.add('translate-y-full');
+    setTimeout(() => {
+      cartDrawerContainer.classList.add('pointer-events-none');
+      document.body.style.overflow = '';
+    }, 300);
+  }
+
+  function showToast(name) {
+    if (!cartToast) return;
+    if (toastDishName) toastDishName.textContent = name ? `${name} added!` : 'Item added to order';
+    cartToast.classList.remove('-translate-y-24', 'opacity-0');
+    cartToast.classList.add('translate-y-0', 'opacity-100');
+    setTimeout(() => {
+      cartToast.classList.remove('translate-y-0', 'opacity-100');
+      cartToast.classList.add('-translate-y-24', 'opacity-0');
+    }, 2400);
+  }
+
+  function updateCartUI() {
+    const totalItems = cart.reduce((sum, item) => sum + item.qty, 0);
+    const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+    const tax = Math.round(subtotal * 0.05);
+    const grandTotal = subtotal + tax;
+
+    // Badges & Counters
+    if (headerCartBadge) headerCartBadge.textContent = totalItems;
+    if (floatingCartBadge) floatingCartBadge.textContent = totalItems;
+    if (cartBarItemCount) cartBarItemCount.textContent = `${totalItems} ${totalItems === 1 ? 'Item' : 'Items'}`;
+    if (cartBarTotal) cartBarTotal.textContent = `₹${grandTotal}`;
+
+    if (billSubtotal) billSubtotal.textContent = `₹${subtotal}`;
+    if (billTax) billTax.textContent = `₹${tax}`;
+    if (billGrandTotal) billGrandTotal.textContent = `₹${grandTotal}`;
+
+    // Hide or show sticky bar
+    if (totalItems === 0) {
+      stickyCartBar.classList.add('translate-y-28', 'opacity-0');
+      stickyCartBar.classList.remove('translate-y-0', 'opacity-100');
+    } else {
+      stickyCartBar.classList.remove('translate-y-28', 'opacity-0');
+      stickyCartBar.classList.add('translate-y-0', 'opacity-100');
+    }
+
+    // Render items list inside drawer
+    if (cartItemsList) {
+      if (cart.length === 0) {
+        cartItemsList.innerHTML = `
+          <div class="p-6 text-center text-on-surface-variant flex flex-col items-center gap-2">
+            <span class="material-symbols-outlined text-4xl text-outline-variant">remove_shopping_cart</span>
+            <p class="font-label-md">Your order tray is currently empty</p>
+            <span class="text-xs text-outline">Explore our menu and add royal delicacies!</span>
+          </div>
+        `;
+      } else {
+        cartItemsList.innerHTML = cart.map(item => `
+          <div class="p-3 flex items-center justify-between gap-2.5">
+            <div class="flex items-center gap-2 min-w-0">
+              <span class="w-3.5 h-3.5 border-[1.5px] ${item.veg ? 'border-[#1b873f]' : 'border-tertiary-container'} rounded-[2px] flex items-center justify-center flex-shrink-0">
+                <span class="w-1.5 h-1.5 rounded-full ${item.veg ? 'bg-[#1b873f]' : 'bg-tertiary-container'}"></span>
+              </span>
+              <div class="min-w-0">
+                <h5 class="font-label-md text-label-md text-primary font-semibold truncate leading-tight">${item.name}</h5>
+                <span class="font-label-sm text-[12px] text-secondary font-bold">₹${item.price}</span>
+              </div>
+            </div>
+            <!-- Stepper Controls -->
+            <div class="flex items-center bg-surface-container rounded-lg p-0.5 border border-outline-variant/30 flex-shrink-0">
+              <button class="cart-decrement-btn w-7 h-7 flex items-center justify-center rounded text-primary hover:bg-surface-container-high active:scale-90 transition-all" data-id="${item.id}">
+                <span class="material-symbols-outlined text-[16px]">remove</span>
+              </button>
+              <span class="w-6 text-center font-label-md text-[13px] font-bold text-on-surface">${item.qty}</span>
+              <button class="cart-increment-btn w-7 h-7 flex items-center justify-center rounded text-primary hover:bg-surface-container-high active:scale-90 transition-all" data-id="${item.id}">
+                <span class="material-symbols-outlined text-[16px]">add</span>
+              </button>
+            </div>
+          </div>
+        `).join('');
+      }
+    }
+
+    // Attach stepper events
+    document.querySelectorAll('.cart-decrement-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const id = e.currentTarget.getAttribute('data-id');
+        const found = cart.find(i => i.id === id);
+        if (found) {
+          if (found.qty > 1) {
+            found.qty -= 1;
+          } else {
+            cart = cart.filter(i => i.id !== id);
+          }
+          updateCartUI();
+        }
+      });
+    });
+
+    document.querySelectorAll('.cart-increment-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const id = e.currentTarget.getAttribute('data-id');
+        const found = cart.find(i => i.id === id);
+        if (found) {
+          found.qty += 1;
+          updateCartUI();
+        }
+      });
+    });
+  }
+
+  function addItemToCart(id, name, price, veg) {
+    const existing = cart.find(item => item.name === name || item.id === id);
+    if (existing) {
+      existing.qty += 1;
+    } else {
+      cart.push({
+        id: id || 'item-' + Date.now(),
+        name,
+        price: parseInt(price, 10) || 300,
+        qty: 1,
+        veg: veg !== false
+      });
+    }
+    updateCartUI();
+    showToast(name);
+  }
+
+  // Bind Buttons
+  if (openDrawerBtn) openDrawerBtn.addEventListener('click', openCartDrawer);
+  if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', closeCartDrawer);
+  if (cartDrawerBackdrop) cartDrawerBackdrop.addEventListener('click', closeCartDrawer);
+  if (headerCartBtn) headerCartBtn.addEventListener('click', openCartDrawer);
+  if (cartBarInfo) cartBarInfo.addEventListener('click', openCartDrawer);
+  if (toastViewBtn) toastViewBtn.addEventListener('click', openCartDrawer);
+  if (navCartTab) navCartTab.addEventListener('click', (e) => {
+    e.preventDefault();
+    openCartDrawer();
+  });
+
+  if (clearCartBtn) {
+    clearCartBtn.addEventListener('click', () => {
+      cart = [];
+      updateCartUI();
+    });
+  }
+
+  // Dish Card "ADD TO ORDER" clicks
+  document.querySelectorAll('article[data-name]').forEach(article => {
+    const addBtn = article.querySelector('.add-to-cart-btn');
+    if (addBtn) {
+      addBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        const id = article.getAttribute('data-dish-id');
+        const name = article.getAttribute('data-name');
+        const price = article.getAttribute('data-price');
+        const veg = article.getAttribute('data-veg') === 'true';
+        addItemToCart(id, name, price, veg);
+      });
+    }
+  });
+
+  // Special item button
+  const specialBtn = document.querySelector('.add-special-to-cart-btn');
+  if (specialBtn) {
+    specialBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const name = specialBtn.getAttribute('data-name');
+      const price = specialBtn.getAttribute('data-price');
+      const veg = specialBtn.getAttribute('data-veg') === 'true';
+      addItemToCart('today-special', name, price, veg);
+    });
+  }
+
+  // Dining Mode Toggle
+  document.querySelectorAll('.order-type-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.order-type-btn').forEach(b => {
+        b.classList.remove('bg-primary', 'text-secondary-fixed', 'font-semibold', 'shadow-xs');
+        b.classList.add('bg-surface-container-highest', 'text-on-surface', 'font-medium');
+      });
+      btn.classList.remove('bg-surface-container-highest', 'text-on-surface', 'font-medium');
+      btn.classList.add('bg-primary', 'text-secondary-fixed', 'font-semibold', 'shadow-xs');
+    });
+  });
+
+  // WhatsApp Order Confirmation Generator
+  if (whatsappOrderBtn) {
+    whatsappOrderBtn.addEventListener('click', () => {
+      if (cart.length === 0) {
+        alert('Your cart is empty. Please choose your dishes first!');
+        return;
+      }
+      const table = document.getElementById('table-number-input')?.value || 'Table 04';
+      const guest = document.getElementById('guest-name-input')?.value || 'Guest';
+      const notes = document.getElementById('cooking-notes-input')?.value || 'None';
+      const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+      const tax = Math.round(subtotal * 0.05);
+      const total = subtotal + tax;
+
+      let itemsText = cart.map(i => `• ${i.name} x${i.qty} (₹${i.price * i.qty})`).join('%0A');
+      let message = `*RS CAFE & KITCHEN AJMER - ORDER REQUEST*%0A%0A*Guest:* ${encodeURIComponent(guest)}%0A*Dining:* ${encodeURIComponent(table)}%0A*Notes:* ${encodeURIComponent(notes)}%0A%0A*Order Summary:*%0A${itemsText}%0A%0A*Subtotal:* ₹${subtotal}%0A*GST (5%):* ₹${tax}%0A*Total Amount:* ₹${total}%0A%0APlease confirm my order!`;
+
+      window.open(`https://wa.me/919799930152?text=${message}`, '_blank');
+    });
+  }
+
+  // Direct Order Kitchen confirmation
+  if (directOrderBtn) {
+    directOrderBtn.addEventListener('click', () => {
+      if (cart.length === 0) {
+        alert('Your order cart is empty.');
+        return;
+      }
+      closeCartDrawer();
+      showToast('Order sent to kitchen! Token #28');
+    });
+  }
+
+  // Dietary Filter Logic
+  document.querySelectorAll('.filter-chip').forEach(button => {
+    button.addEventListener('click', () => {
+      document.querySelectorAll('.filter-chip').forEach(btn => {
+        btn.classList.remove('bg-primary', 'text-on-primary');
+        btn.classList.add('bg-surface-container-high', 'text-on-surface');
+      });
+      button.classList.remove('bg-surface-container-high', 'text-on-surface');
+      button.classList.add('bg-primary', 'text-on-primary');
+    });
+  });
+
+  // Live Dish Filter on Search Input
+  const searchInput = document.getElementById('dish-search-input');
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      const term = e.target.value.toLowerCase().trim();
+      const articles = document.querySelectorAll('article');
+      articles.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        if (text.includes(term)) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  }
+
+  // Scroll Reveal Observer
+  const scrollRevealObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('is-visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {
+    threshold: 0.12,
+    rootMargin: '0px 0px -40px 0px'
+  });
+
+  document.querySelectorAll('.scroll-reveal').forEach(element => {
+    scrollRevealObserver.observe(element);
+  });
+
+  // Initialize
+  updateCartUI();
+</script></main><aside class="fixed right-margin-mobile bottom-36 z-30"><a aria-label="Chat on WhatsApp" class="w-14 h-14 rounded-full bg-[#25D366] text-white flex items-center justify-center shadow-[0_12px_28px_rgba(0,37,29,0.35)] hover:scale-105 active:scale-95 transition-all duration-200 ring-2 ring-surface-bright/20" href="https://wa.me/919799930152" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[30px]">chat</span></a></aside><nav class="fixed bottom-0 inset-x-0 z-40 pb-safe bg-surface-container-low/95 backdrop-blur-xl shadow-[0_-6px_24px_rgba(0,37,29,0.06)]" data-active-classes="text-secondary font-semibold"><div class="flex justify-around items-center h-16 px-gutter-mobile"><a aria-current="page" class="flex flex-col items-center justify-center gap-1 min-w-[44px] min-h-[44px] py-1 px-3 transition-colors text-secondary font-semibold" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">cottage</span><span class="font-label-sm text-label-sm tracking-wider uppercase">Home</span></a><a class="flex flex-col items-center justify-center gap-1 min-w-[44px] min-h-[44px] py-1 px-3 text-on-surface-variant hover:text-primary transition-colors" data-path="culinary-menu" href="#menu-catalog"><span class="material-symbols-outlined text-[22px]">restaurant_menu</span><span class="font-label-sm text-label-sm tracking-wider uppercase">Menu</span></a><a class="flex flex-col items-center justify-center gap-1 min-w-[44px] min-h-[44px] py-1 px-3 text-on-surface-variant hover:text-primary transition-colors cursor-pointer" href="#" id="nav-cart-tab"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="font-label-sm text-label-sm tracking-wider uppercase">Cart</span></a><a class="flex flex-col items-center justify-center gap-1 min-w-[44px] min-h-[44px] py-1 px-3 text-on-surface-variant hover:text-primary transition-colors" data-path="guest-reviews" href="#"><span class="material-symbols-outlined text-[22px]">stars</span><span class="font-label-sm text-label-sm tracking-wider uppercase">Reviews</span></a><a class="flex flex-col items-center justify-center gap-1 min-w-[44px] min-h-[44px] py-1 px-3 text-on-surface-variant hover:text-primary transition-colors" data-path="contact-and-location" href="#visit-contact"><span class="material-symbols-outlined text-[22px]">storefront</span><span class="font-label-sm text-label-sm tracking-wider uppercase">Contact</span></a></div></nav>
+</body></html>
